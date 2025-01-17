@@ -1,12 +1,12 @@
 print("Bienvenido la tienda verde".center(30,'-'))
 Productos_disponibles = {
-    "(1)": "Camisetas",
-    "(2)": "Camisetas Retro",
-    "(3)": "Gorras",
-    "(4)": "Bufandas",
-    "(5)": "Uniformes",
-    "(6)": "Guallos",
-    "(7)": "Guantes"
+    "1": "Camisetas",
+    "2": "Camisetas Retro",
+    "3": "Gorras",
+    "4": "Bufandas",
+    "5": "Uniformes",
+    "6": "Guallos",
+    "7": "Guantes"
 }
 print("Seleccione un producto de la lista")
 for codigo, producto in Productos_disponibles.items():
@@ -20,3 +20,13 @@ while True:
         break
     else:
         print("Codigo invalido, por favor seleccione un codigo de la lista.")
+
+descripcion = input("Ingrese la descripción del producto: ")
+
+proveedor = input("Ingrese el nombre del proveedor: ")
+
+print("\nProducto ingresado con éxito:")
+print(f"Producto: {nombre_producto}")
+print(f"Descripción: {descripcion}")
+print(f"Proveedor: {proveedor}")
+
