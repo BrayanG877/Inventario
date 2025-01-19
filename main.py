@@ -20,8 +20,6 @@ def Mostrar_menu():
         print("5: Ver historial de producto")
         print("6: Reporte del inventario")
         print("7: Salir.")
-        opcion = input ("Selecione una opcion: ") 
-
 def main():
         inventario = Cargar_Inventario()
         while True:
